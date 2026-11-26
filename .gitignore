@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+# Downloaded by torchvision on first run
+data/
+# Model files can be recreated by running notebooks/start.ipynb
+outputs/checkpoints/
+# Diagram workspace (not part of the study)
+.archify/

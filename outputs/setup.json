@@ -1,0 +1,18 @@
+{
+  "python": "3.11.15",
+  "pytorch": "2.15.0",
+  "torchvision": "0.29.2",
+  "scikitlearn": "1.9.1",
+  "numpy": "2.4.6",
+  "pandas": "3.1.1",
+  "matplotlib": "3.11.2",
+  "os": "macOS-26.3.1-arm64-arm-64bit",
+  "cpu": "Apple M2",
+  "logicalcpus": 8,
+  "trainingdevice": "cpu",
+  "quantizedengine": "qnnpack",
+  "supportedengines": [
+    "qnnpack"
+  ],
+  "benchmarkthreads": 1
+}

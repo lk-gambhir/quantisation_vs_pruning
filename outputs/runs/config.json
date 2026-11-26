@@ -1,0 +1,33 @@
+{
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "valfraction": 0.1,
+  "batchsize": 128,
+  "learningrate": 0.001,
+  "epochs": 10,
+  "hidden": [
+    256,
+    128
+  ],
+  "optimizer": "Adam",
+  "loss": "CrossEntropyLoss",
+  "checkpointrule": "lowest validation loss",
+  "prunelevels": [
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "combinedlevel": 0.5,
+  "tolerance": 1.0,
+  "benchthreads": 1,
+  "benchbatches": [
+    1,
+    64
+  ],
+  "warmup": 30,
+  "repeats": 200
+}
